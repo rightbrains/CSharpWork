@@ -8,3 +8,4 @@ on:
   push:
     branches:
     - master
+  schedule:
