@@ -10,3 +10,6 @@ on:
     - master
   schedule:
     - cron: '0 1 * * *'
+
+jobs:
+  build:
