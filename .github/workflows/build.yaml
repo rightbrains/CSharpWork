@@ -17,3 +17,4 @@ jobs:
     steps:
     - name: Check out
       uses: actions/checkout@v1
+    - name: Build images
