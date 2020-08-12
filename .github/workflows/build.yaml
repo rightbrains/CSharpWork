@@ -18,3 +18,4 @@ jobs:
     - name: Check out
       uses: actions/checkout@v1
     - name: Build images
+      run: make build
