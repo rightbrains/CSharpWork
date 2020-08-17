@@ -20,3 +20,4 @@ jobs:
     - name: Build images
       run: make build
     - name: Push images
+      run: make push
