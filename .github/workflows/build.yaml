@@ -23,3 +23,5 @@ jobs:
       run: make push
       if: ( github.event_name == 'push' && github.ref == 'refs/heads/master' ) || ( github.event_name == 'schedule' )
       env:
+        DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
