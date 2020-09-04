@@ -10,3 +10,4 @@ RUN set -x \
     && git checkout ${GIT_REF} && make
 
 # For security, we use kubernetes community maintained debian base image.
+# https://github.com/kubernetes/kubernetes/blob/master/build/debian-base/
