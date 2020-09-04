@@ -11,3 +11,4 @@ RUN set -x \
 
 # For security, we use kubernetes community maintained debian base image.
 # https://github.com/kubernetes/kubernetes/blob/master/build/debian-base/
+FROM k8s.gcr.io/debian-base:v1.0.0
