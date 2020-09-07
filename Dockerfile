@@ -14,3 +14,6 @@ RUN set -x \
 FROM k8s.gcr.io/debian-base:v1.0.0
 
 COPY --from=builder /dsvpn/dsvpn /usr/local/bin/dsvpn
+
+# Keep packages up to date and install packages for our needs.
+RUN set -x \
