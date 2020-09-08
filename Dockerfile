@@ -17,3 +17,6 @@ COPY --from=builder /dsvpn/dsvpn /usr/local/bin/dsvpn
 
 # Keep packages up to date and install packages for our needs.
 RUN set -x \
+    && apt-get update \
+    && apt-get upgrade -y \
+    && clean-install \
