@@ -21,3 +21,5 @@ RUN set -x \
     && apt-get upgrade -y \
     && clean-install \
     util-linux \
+    iptables \
+    net-tools \
