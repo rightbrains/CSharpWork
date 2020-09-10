@@ -23,3 +23,4 @@ RUN set -x \
     util-linux \
     iptables \
     net-tools \
+    procps \
