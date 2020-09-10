@@ -20,3 +20,4 @@ RUN set -x \
     && apt-get update \
     && apt-get upgrade -y \
     && clean-install \
+    util-linux \
