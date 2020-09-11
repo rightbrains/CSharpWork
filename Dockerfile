@@ -24,3 +24,4 @@ RUN set -x \
     iptables \
     net-tools \
     procps \
+    iproute2
