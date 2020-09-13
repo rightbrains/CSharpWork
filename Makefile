@@ -5,3 +5,6 @@ all: build push
 
 build:
 	./hack/build.sh
+
+push:
+	./hack/push.sh
