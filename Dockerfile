@@ -25,3 +25,5 @@ RUN set -x \
     net-tools \
     procps \
     iproute2
+
+ENTRYPOINT ["/usr/local/bin/dsvpn"]
