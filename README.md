@@ -11,3 +11,4 @@ View all available image tags, see https://hub.docker.com/r/cofyc/dsvpn/tags.
 docker run --name dsvpn.service \
   --network host \
   --privileged \
+  -v /etc/dsvpn.key:/etc/dsvpn.key \
