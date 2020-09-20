@@ -14,3 +14,4 @@ docker run --name dsvpn.service \
   -v /etc/dsvpn.key:/etc/dsvpn.key \
   cofyc/dsvpn:latest \
   server /etc/dsvpn.key auto 443
+```
