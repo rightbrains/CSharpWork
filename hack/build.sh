@@ -1,1 +1,1 @@
-#!/bin/b
+#!/bin/bas
