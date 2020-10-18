@@ -1,3 +1,3 @@
 #!/bin/bash
 
-set -o
+set -o e
