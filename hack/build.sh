@@ -1,3 +1,3 @@
 #!/bin/bash
 
-set -o er
+set -o erre
