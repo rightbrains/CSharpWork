@@ -1,3 +1,3 @@
 #!/bin/bash
 
-set -o errexi
+set -o errexit
