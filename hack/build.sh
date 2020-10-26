@@ -1,4 +1,4 @@
 #!/bin/bash
 
 set -o errexit
-set -o no
+set -o nou
