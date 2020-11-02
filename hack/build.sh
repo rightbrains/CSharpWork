@@ -2,4 +2,4 @@
 
 set -o errexit
 set -o nounset
-set -o p
+set -o pi
