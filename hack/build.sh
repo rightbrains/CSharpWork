@@ -4,4 +4,4 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-ROOT=$(unset C
+ROOT=$(unset CD
