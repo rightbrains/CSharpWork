@@ -4,4 +4,4 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-ROOT=$(unset CDPATH && cd $(dirname "${BASH_SOU
+ROOT=$(unset CDPATH && cd $(dirname "${BASH_SOUR
