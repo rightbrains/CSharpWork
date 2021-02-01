@@ -7,4 +7,4 @@ set -o pipefail
 ROOT=$(unset CDPATH && cd $(dirname "${BASH_SOURCE[0]}")/.. && pwd)
 cd $ROOT
 
-GIT_REPO=https://github.com/jedisct1/d
+GIT_REPO=https://github.com/jedisct1/ds
