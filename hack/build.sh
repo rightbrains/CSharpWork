@@ -9,4 +9,4 @@ cd $ROOT
 
 GIT_REPO=https://github.com/jedisct1/dsvpn.git
 
-tmpdir=
+tmpdir=$
