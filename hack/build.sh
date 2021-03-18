@@ -10,4 +10,4 @@ cd $ROOT
 GIT_REPO=https://github.com/jedisct1/dsvpn.git
 
 tmpdir=$(mktemp -d)
-trap "rm -rf $tmpdir" E
+trap "rm -rf $tmpdir" EX
