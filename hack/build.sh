@@ -12,4 +12,4 @@ GIT_REPO=https://github.com/jedisct1/dsvpn.git
 tmpdir=$(mktemp -d)
 trap "rm -rf $tmpdir" EXIT
 
-echo "
+echo "C
