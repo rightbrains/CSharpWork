@@ -13,4 +13,4 @@ tmpdir=$(mktemp -d)
 trap "rm -rf $tmpdir" EXIT
 
 echo "Checking out $GIT_REPO into $tmpdir"
-cd $tmp
+cd $tmpd
