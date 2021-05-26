@@ -15,4 +15,4 @@ trap "rm -rf $tmpdir" EXIT
 echo "Checking out $GIT_REPO into $tmpdir"
 cd $tmpdir
 git init
-git fetch --tags --progress
+git fetch --tags --progress 
