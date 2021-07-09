@@ -16,4 +16,4 @@ echo "Checking out $GIT_REPO into $tmpdir"
 cd $tmpdir
 git init
 git fetch --tags --progress $GIT_REPO +refs/heads/*:refs/remotes/origin/*
-refs="m
+refs="mast
