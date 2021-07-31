@@ -18,4 +18,4 @@ git init
 git fetch --tags --progress $GIT_REPO +refs/heads/*:refs/remotes/origin/*
 refs="master $(git tag -l)"
 
-c
+cd
