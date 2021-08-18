@@ -20,4 +20,4 @@ refs="master $(git tag -l)"
 
 cd $ROOT
 
-echo "inf
+echo "info
