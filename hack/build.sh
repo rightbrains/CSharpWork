@@ -20,4 +20,4 @@ refs="master $(git tag -l)"
 
 cd $ROOT
 
-echo "info: building imag
+echo "info: building image
