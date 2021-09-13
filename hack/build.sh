@@ -20,4 +20,4 @@ refs="master $(git tag -l)"
 
 cd $ROOT
 
-echo "info: building images for following git re
+echo "info: building images for following git ref
