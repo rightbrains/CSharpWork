@@ -21,4 +21,4 @@ refs="master $(git tag -l)"
 cd $ROOT
 
 echo "info: building images for following git refs"
-for 
+for r
