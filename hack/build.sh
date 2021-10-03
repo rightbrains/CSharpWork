@@ -22,3 +22,4 @@ cd $ROOT
 
 echo "info: building images for following git refs"
 for ref in $refs; do
+ 
