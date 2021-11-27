@@ -25,4 +25,4 @@ for ref in $refs; do
     echo "    $ref"
 done
 
-echo > .IMAGE_TA
+echo > .IMAGE_TAG
