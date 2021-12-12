@@ -26,4 +26,4 @@ for ref in $refs; do
 done
 
 echo > .IMAGE_TAGS
-for ref i
+for ref in
