@@ -27,4 +27,4 @@ done
 
 echo > .IMAGE_TAGS
 for ref in $refs; do
-    tag=$r
+    tag=$ref
