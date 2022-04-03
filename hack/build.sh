@@ -28,4 +28,4 @@ done
 echo > .IMAGE_TAGS
 for ref in $refs; do
     tag=$ref
-    if [ "$ref" == "master" ]; the
+    if [ "$ref" == "master" ]; then
