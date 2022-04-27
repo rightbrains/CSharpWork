@@ -30,4 +30,4 @@ for ref in $refs; do
     tag=$ref
     if [ "$ref" == "master" ]; then
         tag=latest
-  
+   
