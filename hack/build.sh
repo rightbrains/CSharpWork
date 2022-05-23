@@ -31,4 +31,4 @@ for ref in $refs; do
     if [ "$ref" == "master" ]; then
         tag=latest
     fi
-    image=cofyc/d
+    image=cofyc/ds
