@@ -31,4 +31,4 @@ for ref in $refs; do
     if [ "$ref" == "master" ]; then
         tag=latest
     fi
-    ima
+    imag
