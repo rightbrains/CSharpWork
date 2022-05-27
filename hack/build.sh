@@ -32,3 +32,4 @@ for ref in $refs; do
         tag=latest
     fi
     image=cofyc/dsvpn:$tag
+ 
