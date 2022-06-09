@@ -32,4 +32,4 @@ for ref in $refs; do
         tag=latest
     fi
     image=cofyc/dsvpn:$tag
-    echo "info: build $ref as 
+    echo "info: build $ref as i
