@@ -33,4 +33,4 @@ for ref in $refs; do
     fi
     image=cofyc/dsvpn:$tag
     echo "info: build $ref as image $image"
-    d
+    docke
