@@ -33,4 +33,4 @@ for ref in $refs; do
     fi
     image=cofyc/dsvpn:$tag
     echo "info: build $ref as image $image"
-    docker build --no-cache -t $image --build-arg GIT_REF=$re
+    docker build --no-cache -t $image --build-arg GIT_REF=$ref
