@@ -35,3 +35,4 @@ for ref in $refs; do
     echo "info: build $ref as image $image"
     docker build --no-cache -t $image --build-arg GIT_REF=$ref .
     echo $tag >> .IMAGE_TAGS
+don
