@@ -12,3 +12,5 @@ if [ -n "${DOCKER_USERNAME:-}" -a -n "${DOCKER_PASSWORD:-}" ]; then
     echo "info: DOCKER_USERNAME & DOCKER_PASSWORD are both set"
     docker login --username $DOCKER_USERNAME --password-stdin <<<"$DOCKER_PASSWORD"
 fi
+
+for tag in $(cat .IMAGE_TAGS); do
