@@ -16,3 +16,4 @@ fi
 for tag in $(cat .IMAGE_TAGS); do
     image=cofyc/dsvpn:$tag
     echo "info: pushing $image"
+    docker push $image
